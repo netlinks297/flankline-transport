@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLANKLINE TRANSPORTERS LTD.</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+<header>
+    <div class="nav_header">
+        <div class="nav_logo">
+            <a href="#">FLANKLINE TRANSPORT</a>
+        </div>
+        <div class="nav_menu_btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+        </div>
+        <ul class="nav_links" id="nav-links">
+            <li><a href="#home"> home</a></li>
+            <li><a href="#about"> about</a></li>
+            <li><a href="#gallery"> gallery</a></li>
+            <li><a href="#prices"> prices</a></li>
+            <li><a href="#contacts"> contacts</a></li>
+        </ul>
+        <div class="nav-btn">
+            <button class="">get started</button>
+        </div>
+    </div>
+<div class="header_container" id="home">
+    <h1> TRANSPORT VEHICLES </h1>
+    <h1>FOR MORE INFO: 0753 395 953 OR EMAIL: kingij619@gmail.com </h1>
+    <form action="/">
+        <div class="input_group">
+            <label for="location">Pick Location</label>
+       <input type="text"
+       name="location"
+       id="location"
+       placeholder="Nairobi, Mombasa"
+       />
+       <div class="input_group">
+        <label for="location">Return Location</label>
+   <input type="text"
+   name="location"
+   id="location"
+   placeholder="Nairobi, Mombasa"
+   />
+   <div class="input_group">
+    <label for="start">start</label>
+<input type="text"
+name="start"
+id="start"
+placeholder="Au 16,10:00am"
+/>
+   </br>
+
+   <div class="input_group">
+    <label for="stop">stop</label>
+<input type="text"
+name="stop"
+id="stop"
+placeholder="sep 16,10:00 Pm"
+/>
+        </div>
+
+    </form>
+</div>
+</header>
+<div class="content">
+  <section id="home">
+    <h2>Home</h2>
+    <p>Welcome to the homepage!</p>
+  </section>
+  
+  <section id="about">
+    <h2>About</h2>
+    <p>Learn more about us here.</p>
+  </section>
+  
+  <section id="services">
+    <h2>Services</h2>
+    <p>We offer various services to help you succeed.</p>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out to us!</p>
+  </section>
+</div>
+</div>
+<div class="gallery">
+    <a target="_blank" href="images.jpg">
+      <img src="images.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">For special cargo transport for your goods and comodities </div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="cargo-truck-m.jpg">
+      <img src="cargo-truck-m.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">for container transportation and polls  e.t.c               </div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="Container-Trailer-truck-for-hire.jpg">
+      <img src="Container-Trailer-truck-for-hire.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">long distance transportation accross east africa, fragile goods, bulk and heavy </div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="67278370_NjIwLTQ4My1lMzI2NDcxZjVm.jpg">
+      <img src="67278370_NjIwLTQ4My1lMzI2NDcxZjVm.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Transportation of Bricks, and any other related building materials </div>
+  </div>
+  <div class="gallery">
+    <a target="_blank" href="ud-truck-2.jpg">
+      <img src="ud-truck-2.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Transportation of high value goods, and food staffs  </div>
+  </div>
+  <div class="gallery">
+    <a target="_blank" href="55.jpg">
+      <img src="55.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Transportation of long comodities, blogs etc </div>
+  </div>
+  <div class="container">
+    <h1>Quotation Form</h1>
+
+    <!-- Quotation Form -->
+    <form id="quotationForm">
+      <label for="customerName">Customer Name:</label>
+      <input type="text" id="customerName" name="customerName" required>
+
+      <label for="quotationDate">Date:</label>
+      <input type="date" id="quotationDate" name="quotationDate" required>
+
+      <label for="itemDescription">Item Description:</label>
+      <textarea id="itemDescription" name="itemDescription" required></textarea>
+
+      <label for="itemPrice">Price:</label>
+      <input type="number" id="itemPrice" name="itemPrice" required>
+
+      <button type="button" onclick="generateQuotation()">Generate Quotation</button>
+    </form>
+
+    <!-- Quotation Display -->
+    <div id="quotationDisplay" class="quotation-display">
+      <h2>Quotation</h2>
+      <div id="quotationDetails">
+        <!-- Generated Quotation will appear here -->
+      </div>
+      <button id="printBtn" onclick="printQuotation()">Print Quotation</button>
+    </div>
+  </div>
+<script src="main.js"></script>
+<footer>
+    <div class="marquee">
+      <!-- Add images or other graphics here -->
+      <img src="LOGO.jpg" alt="Graphic 1">
+      <img src="Container-Trailer-truck-for-hire.jpg" alt="Graphic 2">
+      <img src="back.jpg" alt="Graphic 3">
+      <img src="cargo-truck-m.jpg" alt="Graphic 4">
+      <img src="55.jpg" alt="Graphic 5">
+      <img src="images.jpg" alt="Graphic 6">
+    </div>
+
+    <!-- Optional footer text -->
+    <div class="footer-text">
+      &copy; 2024 Your Company. All Rights Reserved.
+    </div>
+    <div class="contact-form-container">
+      <h1>Contact Us</h1>
+      <form id="contactForm" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send Message</button>
+      </form>
+
+      <div id="responseMessage"></div>
+  </div>
+  <script src="script.js"></script>
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

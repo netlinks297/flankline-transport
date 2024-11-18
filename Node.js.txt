@@ -1,0 +1,8 @@
+Welcome to Node.js v22.11.0.
+Type ".help" for more information.
+> # create a project folder and navigate into iterator
+# create a project folder and navigate into iterator
+^
+
+Uncaught SyntaxError: Invalid or unexpected token
+>
